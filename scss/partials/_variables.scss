@@ -1,0 +1,39 @@
+/* =======================================================================
+Responsive
+========================================================================== */
+$breakpoints: (
+        'xsmall': (max-width: 479px),
+        'small': (max-width: 599px),
+        'medium': (max-width: 767px),
+        'large': (max-width: 1024px),
+        'largeOnly': (min-width: 768px) and (max-width: 1024px),
+        'xxl': (min-width: 1200px),
+        'tall': (min-height: 780px),
+);
+
+/* =======================================================================
+Font-face
+========================================================================== */
+
+/* =======================================================================
+Variables
+========================================================================== */
+
+// Fonts stacks
+$font-stack: Roboto, sans-serif;
+$font-stack-condensed: Roboto Condensed, sans-serif;
+$font-stack-alt: Georgia, serif;
+$font-size-base: 16px;
+$line-height-base: 1.4;
+
+// Typography
+$color-text: #333;
+$color-emtpy: #ffffff;
+$color-link: #ff0000;
+$color-link-visited: lighten($color-link, 20%);
+$color-link-hover: darken($color-link, 20%);
+$color-link-active: darken($color-link, 40%);
+
+// Highlight
+$color-selection: #ff0000;
+$color-placeholder: #ff0000;

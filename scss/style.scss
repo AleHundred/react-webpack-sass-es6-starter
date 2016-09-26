@@ -1,0 +1,38 @@
+/*
+  Project: HTML Gulp SASS Starter
+  Author: 
+  Author URI: 
+  Version: 1.0.0
+  Date: Sept 2016
+*/
+
+/*
+----------------------
+>>> TABLE OF CONTENTS:
+----------------------
+1.0 Fonts
+2.0 Partials
+----------------------
+*/
+
+
+/* Fonts */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=BioRhyme:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700");
+
+/* Partials */
+
+// Normalize.css
+@import "partials/normalize";
+
+// Variables
+@import "partials/variables";
+
+// Base defaults
+@import "partials/base";
+
+// Layout defaults
+@import "partials/layout";
