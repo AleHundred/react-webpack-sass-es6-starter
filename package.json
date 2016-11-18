@@ -4,7 +4,7 @@
   "description": "A Starter Repository With React, Webpack and SASS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "Alejandra Villa > alxvilla.me",
   "license": "ISC",
@@ -15,11 +15,17 @@
     "babel-runtime": "^6.11.6"
   },
   "devDependencies": {
+    "babel-preset-stage-0": "^6.0.15",
     "css-loader": "^0.26.0",
     "node-sass": "^3.10.0",
+    "react-hot-loader": "^3.0.0-beta.6",
     "react-scripts": "0.7.0",
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
-    "webpack": "^1.13.2"
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "scripts": {
+    "start": "node server.js"
   }
 }
