@@ -6,7 +6,7 @@ Basic process for running:
 
 ```
 npm install
-npm run
+npm start
 ```
 
 And code away ;)
